@@ -1,0 +1,81 @@
+/* Variables */
+$background-dark: #1c1c1c;
+$text-light: #e0e0e0;
+$highlight-color: #f5a623;
+$button-hover-bg: #333333;
+$transition-speed: 0.4s;
+
+/* Container Styles */
+.contactContainer {
+  background-color: $background-dark;
+  color: $text-light;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.contactHeader {
+  text-align: center;
+  font-size: 1.75rem;
+  padding-top: 20px;
+  color: $text-light;
+
+  .highlight {
+    color: $highlight-color;
+    font-weight: 600;
+  }
+}
+
+/* Contact Content Section */
+.contactContent {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  .contactImage {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+
+    .sectionTitle {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $highlight-color;
+    }
+
+    .sectionText {
+      font-size: 0.95rem;
+      color: $text-light;
+    }
+
+    .exploreJobsButton {
+      border: 1px solid $text-light;
+      padding: 12px 32px;
+      font-size: 0.9rem;
+      background-color: transparent;
+      color: $text-light;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color $transition-speed, color $transition-speed;
+
+      &:hover {
+        background-color: $button-hover-bg;
+        color: $highlight-color;
+      }
+    }
+  }
+}
