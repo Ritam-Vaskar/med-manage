@@ -1,0 +1,109 @@
+/* Variables */
+$background-dark: #1c1c1c;
+$text-light: #e0e0e0;
+$highlight-color: #f5a623;
+$card-bg-hover: #333333;
+$transition-speed: 0.3s;
+
+/* Container Styles */
+.aboutContainer {
+  background-color: $background-dark;
+  color: $text-light;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.aboutHeader {
+  text-align: center;
+  font-size: 1.75rem;
+  padding-top: 20px;
+  color: $text-light;
+
+  .highlight {
+    color: $highlight-color;
+    font-weight: 600;
+  }
+}
+
+/* About Us Section */
+.aboutContent {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  .aboutImage {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    font-size: 0.9rem;
+
+    .visionTitle {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: $highlight-color;
+    }
+  }
+}
+
+/* Why Choose Us Section */
+.chooseUsHeader {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: $text-light;
+  text-align: center;
+
+  .highlight {
+    color: $highlight-color;
+    font-weight: 600;
+  }
+}
+
+.featuresContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  .featureCard {
+    border: 1px solid #444;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    font-size: 0.95rem;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color $transition-speed, color $transition-speed;
+
+    &:hover {
+      background-color: $card-bg-hover;
+      color: $highlight-color;
+    }
+
+    b {
+      font-size: 1rem;
+      color: $highlight-color;
+    }
+
+    p {
+      color: $text-light;
+    }
+  }
+}
