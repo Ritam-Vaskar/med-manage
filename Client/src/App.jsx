@@ -18,7 +18,7 @@ import GoogleMap from './GoogleMap/FindNearestHospital'
 
 const App = () => {
   return (
-    <div className='mx-4 sm:mx-[10%]'>
+    <div style={{marginLeft: '40px', marginRight: '40px'}}>
       <ToastContainer />
       <Navbar />
       <Routes>
