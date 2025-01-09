@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import Navbar from './layouts/Navbar/Navbar'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Doctors from './pages/Doctors/Doctors'
@@ -9,7 +9,7 @@ import Contact from './pages/Contact/Contact'
 import Appointment from './pages/Appointment/Appointment'
 import MyAppointments from './pages/Profile/MyAppointments'
 import MyProfile from './pages/Profile/MyProfile'
-import Footer from './components/Footer'
+import Footer from './layouts/Footer/Footer'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Verify from './pages/Verify'
