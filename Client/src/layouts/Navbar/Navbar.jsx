@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div className={styles.navbar}>
-      <img onClick={() => navigate('/')} className={styles.logo} src={assets.logo} alt="Logo" />
+      <img onClick={() => navigate('/')} className={styles.logo} src="https://cdn.prod.website-files.com/66ffb182a2a1dbe73904d0b5/677fec24ad183b7dd53f1794_Screenshot_2025-01-09_205628-removebg-preview.png" alt="Logo" />
       <ul className={styles.navLinks}>
         <NavLink to="/">
           <li>HOME</li>

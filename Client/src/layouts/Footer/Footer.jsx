@@ -7,7 +7,7 @@ const Footer = () => {
     <div className={styles.footerContainer}>
       <div className={styles.footerContent}>
         <div className={styles.logoSection}>
-          <img className={styles.logo} src={assets.logo} alt="Logo" />
+          <img className={styles.logo} src="https://cdn.prod.website-files.com/66ffb182a2a1dbe73904d0b5/677fec24ad183b7dd53f1794_Screenshot_2025-01-09_205628-removebg-preview.png" alt="Logo" />
           <p className={styles.description}>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
@@ -36,7 +36,7 @@ const Footer = () => {
 
       <div className={styles.footerBottom}>
         <hr />
-        <p>Copyright 2024 @ Prescripto.com - All Right Reserved.</p>
+        <p>Copyright 2024 @ Medmanage.com - All Right Reserved.</p>
       </div>
     </div>
   );
