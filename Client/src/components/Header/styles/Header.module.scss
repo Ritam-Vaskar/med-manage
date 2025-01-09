@@ -1,0 +1,249 @@
+/* header.module.scss */
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #4c5ff4;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+    @media (min-width: 1024px) {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+  
+  .leftSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2.5rem 0;
+    margin: auto;
+  
+    @media (min-width: 768px) {
+      width: 50%;
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+      margin-bottom: -30px;
+    }
+  
+    .title {
+      font-size: 1.875rem;
+      font-weight: 600;
+      color: #ffffff;
+      line-height: 1.25;
+  
+      @media (min-width: 768px) {
+        font-size: 2.25rem;
+      }
+      @media (min-width: 1024px) {
+        font-size: 3.125rem;
+      }
+    }
+  
+    .description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.875rem;
+      font-weight: 300;
+      color: #ffffff;
+  
+      @media (min-width: 768px) {
+        flex-direction: row;
+      }
+  
+      .profileImage {
+        width: 7rem;
+      }
+  
+      .text {
+        br {
+          display: none;
+          @media (min-width: 640px) {
+            display: block;
+          }
+        }
+      }
+    }
+  
+    .ctaButton {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background-color: #ffffff;
+      padding: 0.75rem 2rem;
+      border-radius: 9999px;
+      color: #595959;
+      font-size: 0.875rem;
+      margin: auto;
+  
+      @media (min-width: 768px) {
+        margin: 0;
+      }
+  
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.05);
+      }
+  
+      .arrowIcon {
+        width: 0.75rem;
+      }
+    }
+  }
+  
+  .rightSection {
+    width: 100%;
+    position: relative;
+  
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  
+    .headerImage {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+  
+      @media (min-width: 768px) {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+/* header.module.scss */
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  @media (min-width: 1024px) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.leftSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2.5rem 0;
+  margin: auto;
+
+  @media (min-width: 768px) {
+    width: 50%;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    margin-bottom: -30px;
+  }
+
+  .title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.25;
+
+    @media (min-width: 768px) {
+      font-size: 2.25rem;
+    }
+    @media (min-width: 1024px) {
+      font-size: 3.125rem;
+    }
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #ffffff;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+
+    .profileImage {
+      width: 7rem;
+    }
+
+    .text {
+      br {
+        display: none;
+        @media (min-width: 640px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .ctaButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ffffff;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    color: #595959;
+    font-size: 0.875rem;
+    margin: auto;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    .arrowIcon {
+      width: 0.75rem;
+    }
+  }
+}
+
+.rightSection {
+  width: 100%;
+  position: relative;
+
+  @media (min-width: 768px) {
+    width: 50%;
+  }
+
+  .headerImage {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+
+    @media (min-width: 768px) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+  
