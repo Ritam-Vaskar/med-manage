@@ -6,9 +6,9 @@ import styles from './styles/SpecialityMenu.module.scss';
 const SpecialityMenu = () => {
   return (
     <div id="speciality" className={styles.specialityMenuContainer}>
-      <h1 className={styles.title}>Find by Speciality</h1>
+      <h1 className={styles.title}>Explore Specialties</h1>
       <p className={styles.description}>
-        Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.
+        Connect with top specialists across various fields. Select a specialty and schedule your appointment effortlessly.
       </p>
       <div className={styles.menu}>
         {specialityData.map((item, index) => (
