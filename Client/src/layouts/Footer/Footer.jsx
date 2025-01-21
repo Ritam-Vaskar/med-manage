@@ -9,9 +9,9 @@ const Footer = () => {
         <div className={styles.logoSection}>
           <img className={styles.logo} src={assets.logo} alt="Logo" />
           <p className={styles.description}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
+            We are committed to providing the best medical care with a focus on quality, accessibility, and innovation. 
+            Our goal is to make healthcare easier and more efficient for everyone, empowering you to take control of 
+            your health and well-being.
           </p>
         </div>
 
@@ -19,24 +19,24 @@ const Footer = () => {
           <p className={styles.title}>COMPANY</p>
           <ul>
             <li>Home</li>
-            <li>About us</li>
-            <li>Delivery</li>
-            <li>Privacy policy</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li>Privacy Policy</li>
           </ul>
         </div>
 
         <div className={styles.contactSection}>
-          <p className={styles.title}>GET IN TOUCH</p>
+          <p className={styles.title}>CONTACT</p>
           <ul>
-            <li>+1-212-456-7890</li>
-            <li>greatstackdev@gmail.com</li>
+            <li>+91-9476455131</li>
+            <li>sr.23cs8002@nitdgp.ac.in</li>
           </ul>
         </div>
       </div>
 
       <div className={styles.footerBottom}>
         <hr />
-        <p>Copyright 2024 @ med-manage.com - All Right Reserved.</p>
+        <p>&copy; 2024 Med Manage. All rights reserved.</p>
       </div>
     </div>
   );

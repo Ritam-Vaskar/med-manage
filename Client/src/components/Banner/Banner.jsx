@@ -1,40 +1,41 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import styles from './styles/Banner.module.scss';
 import { assets } from '../../assets/assets';
-import { useNavigate } from 'react-router-dom';
 
 const Banner = () => {
   const navigate = useNavigate();
 
   return (
     <div className={styles.bannerContainer}>
-      {/* ------- Left Side ------- */}
+      {/* Left Section */}
       <div className={styles.leftContent}>
-        <div className={styles.title}>
-          <p>Book Appointment</p>
-          <p className="subtitle">With 100+ Trusted Doctors</p>
-        </div>
+        <h1 className={styles.title}>Book Your Appointment</h1>
+        <p className={styles.subtitle}>With Over 100 Trusted Doctors</p>
         <button
           onClick={() => {
             navigate('/login');
-            scrollTo(0, 0);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
-          className={styles.button}
+          className={styles.ctaButton}
         >
-          Create account
+          Create Account
         </button>
       </div>
 
-      {/* ------- Right Side ------- */}
+      {/* Right Section */}
       <div className={styles.rightContent}>
-        <div className={styles.imageContainer}>
-          <img
-            className={styles.image}
-            src={assets.appointment_img}
-            alt="Appointment"
-          />
-        </div>
+        <video
+          className={styles.bannerVideo}
+          src="https://media.istockphoto.com/id/458659818/video/female-doctor-leads-a-meeting-with-professionals.mp4?s=mp4-640x640-is&k=20&c=3-jK91PhCSozjiQeYvTNJjHllJ-l_FqgSOlHGn7Vh5A="
+          alt="Book an Appointment"
+          autoPlay
+          loop
+          muted
+          controls={false} 
+        ></video>
       </div>
+
     </div>
   );
 };
