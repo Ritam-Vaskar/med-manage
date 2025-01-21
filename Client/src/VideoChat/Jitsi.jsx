@@ -6,7 +6,7 @@ const JitsiMeet = () => {
     useEffect(() => {
         const domain = "meet.jit.si";
         const options = {
-            roomName: "Prescripto", 
+            roomName: "med-manage", 
             parentNode: jitsiContainerRef.current,
             userInfo: {
                 displayName: "Sandipto Roy", 

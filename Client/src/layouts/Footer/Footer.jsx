@@ -36,7 +36,7 @@ const Footer = () => {
 
       <div className={styles.footerBottom}>
         <hr />
-        <p>Copyright 2024 @ Prescripto.com - All Right Reserved.</p>
+        <p>Copyright 2024 @ med-manage.com - All Right Reserved.</p>
       </div>
     </div>
   );
