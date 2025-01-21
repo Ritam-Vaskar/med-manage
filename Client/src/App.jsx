@@ -16,12 +16,14 @@ import Verify from './pages/Verify'
 // import AdminPortal from './../../admin/src/main'
 import GoogleMap from './GoogleMap/FindNearestHospital'
 import JitsiMeet from './VideoChat/Jitsi'
+import Headroom from 'react-headroom'
 
 const App = () => {
   return (
     <div style={{marginLeft: '40px', marginRight: '40px'}}>
       <ToastContainer />
-      <Navbar />
+      <Headroom>  <Navbar /></Headroom>
+    
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/doctors' element={<Doctors />} />

@@ -1,6 +1,7 @@
 /* footer.module.scss */
 
 .footerContainer {
+  
     margin: 2.5rem;
   
     @media (min-width: 768px) {
@@ -8,6 +9,7 @@
     }
   
     .footerContent {
+      background-image: url('https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?t=st=1737484820~exp=1737488420~hmac=c2a9bee790e8158b39305c74bde83189981684bd40a429582ed94c1c78ba5ca4&w=1480');
       display: flex;
       flex-direction: column;
       gap: 3.5rem;

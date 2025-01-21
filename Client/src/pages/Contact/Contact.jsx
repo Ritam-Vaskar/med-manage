@@ -8,26 +8,26 @@ const Contact = () => {
       {/* Header Section */}
       <div className={styles.contactHeader}>
         <p>
-          CONTACT <span className={styles.highlight}>US</span>
+          GET IN <span className={styles.highlight}>TOUCH</span>
         </p>
       </div>
 
       {/* Contact Content Section */}
       <div className={styles.contactContent}>
-        <img className={styles.contactImage} src={assets.contact_image} alt="Contact Us" />
+        <img className={styles.contactImage} src='https://media.istockphoto.com/id/1366686036/photo/doctors-laugh-and-talk-in-the-hallway-older-woman-and-young-female-doctors.jpg?s=1024x1024&w=is&k=20&c=rBnRahyv5BYKmAPPIHVC8OiRgFmwqhYy-UZAU7zw0I0=' alt="Contact Us" />
         <div className={styles.contactDetails}>
-          <p className={styles.sectionTitle}>OUR OFFICE</p>
+          <p className={styles.sectionTitle}>OUR LOCATION</p>
           <p className={styles.sectionText}>
-            54709 Willms Station <br /> Suite 350, Washington, USA
+            NIT Durgapur <br /> Durgapur <br /> West Bengal, India, 713209
           </p>
           <p className={styles.sectionText}>
-            Tel: (415) 555-0132 <br /> Email: greatstackdev@gmail.com
+            Phone: (+91) 9476455131 <br /> Email: sr.23cs8002@nitdgp.ac.in
           </p>
-          <p className={styles.sectionTitle}>CAREERS AT med-manage</p>
+          <p className={styles.sectionTitle}>JOIN OUR TEAM</p>
           <p className={styles.sectionText}>
-            Learn more about our teams and job openings.
+            Discover opportunities to work with us and be part of something amazing.
           </p>
-          <button className={styles.exploreJobsButton}>Explore Jobs</button>
+          <button className={styles.exploreJobsButton}>Explore Career Opportunities</button>
         </div>
       </div>
     </div>
