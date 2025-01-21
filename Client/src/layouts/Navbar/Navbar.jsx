@@ -35,6 +35,14 @@ const Navbar = () => {
           <li>CONTACT</li>
           <hr />
         </NavLink>
+        <NavLink to="/nearest-hospitals">
+          <li>NEAREST HOSPITALS</li>
+          <hr />
+        </NavLink>
+        <NavLink to="/meet">
+          <li>MEET</li>
+          <hr />
+        </NavLink>
       </ul>
 
       <div className={styles.actions}>
