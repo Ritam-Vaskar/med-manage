@@ -21,7 +21,7 @@ const Contact = () => {
             NIT Durgapur <br /> Durgapur <br /> West Bengal, India, 713209
           </p>
           <p className={styles.sectionText}>
-            Phone: (+91) 9476455131 <br /> Email: sr.23cs8002@nitdgp.ac.in
+            Phone: (+91) 0000000000 <br /> Email: xx.23cs8xxx@nitdgp.ac.in
           </p>
           <p className={styles.sectionTitle}>JOIN OUR TEAM</p>
           <p className={styles.sectionText}>
