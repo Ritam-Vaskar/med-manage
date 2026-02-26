@@ -28,8 +28,8 @@ const Footer = () => {
         <div className={styles.contactSection}>
           <p className={styles.title}>CONTACT</p>
           <ul>
-            <li>+91-9476455131</li>
-            <li>sr.23cs8002@nitdgp.ac.in</li>
+            <li>+91-0000000000</li>
+            <li>xx.23cs8xxx@nitdgp.ac.in</li>
           </ul>
         </div>
       </div>
